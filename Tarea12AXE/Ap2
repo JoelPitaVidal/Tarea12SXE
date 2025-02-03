@@ -1,1 +1,5 @@
-insert into EmpresasFCT values
+insert into EmpresasFCT values (1,'ejemplo',true,1,'2000-05-10');
+insert into EmpresasFCT values (2,'ejemplo',true,1,'2000-05-10');
+insert into EmpresasFCT values (3,'ejemplo',true,1,'2000-05-10');
+insert into EmpresasFCT values (4,'ejemplo',true,1,'2000-05-10');
+insert into EmpresasFCT values (5,'ejemplo',true,1,'2000-05-10');
