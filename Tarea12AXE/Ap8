@@ -1,0 +1,3 @@
+DELETE from res_partner where commercial_company_name='Ready Mat' and is_company=FALSE;
+
+select name,commercial_company_name,is_company from res_partner where commercial_company_name='Ready Mat';
