@@ -1,0 +1,1 @@
+SELECT * FROM EmpresasFCT order by fechaContacto;

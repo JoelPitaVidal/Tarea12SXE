@@ -1,0 +1,10 @@
+SELECT r.name,
+       count(distinct a.name) as num_facturas,
+       sum(distinct a.amount_untaxed_signed) as total_sin_impuestos
+from res_partner r 
+join account_move a
+on a.partner_id=r.id 
+       where a.move_type='out_invoice' 
+       and state='posted'
+       group by r.name
+       having count(*) > 2

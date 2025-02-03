@@ -1,0 +1,1 @@
+UPDATE res_partner set email = replace(email, '@bilbao.example.com', '@bilbao.bizkaia.neus');

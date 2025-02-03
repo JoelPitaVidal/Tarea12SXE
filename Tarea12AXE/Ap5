@@ -1,0 +1,9 @@
+SELECT r.name,
+       a.name,
+       a.invoice_date,
+       a.amount_untaxed_signed
+from res_partner r
+left join account_move a
+on a.partner_id=r.id
+       where a.move_type='in_refund'
+       order by a.invoice_date desc;

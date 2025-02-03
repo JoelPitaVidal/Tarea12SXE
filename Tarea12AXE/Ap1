@@ -1,0 +1,9 @@
+Create table EmpresasFCT (
+	idEmpresa serial
+	nombre varchar(40),
+	quiereAlumnos boolean
+	numAlumnos integer,
+	fechaContacto date,
+	Primary key (idEmpresa)
+);
+

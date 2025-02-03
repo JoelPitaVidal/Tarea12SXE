@@ -1,0 +1,1 @@
+SELECT name,city,commercial_company_name from res_partner where city = 'Tracy' and is_company = false order by commercial_company_name;
